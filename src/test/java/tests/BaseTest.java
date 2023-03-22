@@ -3,6 +3,7 @@ package tests;
 import helpers.BaseHelper;
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 
 public class BaseTest extends BaseHelper
