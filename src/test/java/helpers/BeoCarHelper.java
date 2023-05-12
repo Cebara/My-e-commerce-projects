@@ -12,7 +12,7 @@ public class BeoCarHelper extends BaseHelper {
   String url = "https://beocar.dev.smartweb.rs/";
   driver.navigate().to(url);
   driver.get("https://beocar.dev.smartweb.rs/");
-  WebElement Registracijadugme = driver.findElement(By.id("idI2NpSCjI"));
+  WebElement Registracijadugme = driver.findElement(By.id("idJyw6ULT4"));
   Registracijadugme.click();
   wdWait.until(ExpectedConditions.presenceOfElementLocated(By.id("firstname")));
   WebElement ImeField = driver.findElement(By.id("firstname"));

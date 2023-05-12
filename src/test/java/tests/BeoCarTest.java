@@ -2,7 +2,7 @@ package tests;
 
 import helpers.BeoCarHelper;
 import org.junit.Test;
-import org.openqa.selenium.devtools.v108.storage.model.InterestGroupAccessed;
+
 
 public class BeoCarTest extends BaseTest{
 
