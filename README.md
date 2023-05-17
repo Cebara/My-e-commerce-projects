@@ -1,13 +1,2 @@
-# javaSelenium
-Default Java Selenium project
-
-Create new java class in tests package which extends BaseTest. (as in ProbnaKlasaTest)
-BaseTest will start Chrome before each test and close it after.
-Create JUnit @Test annotation and create a method bellow.
-You have run test button next to method signature.
-You can use variable driver (as WebDriver) and wdWait (as WebDriverWait)
-which are inherited from BaseHelper.
-Each page/helper class should extends BaseHelper.
-
-Chromedriver (https://chromedriver.chromium.org/downloads) for appropriate version 
-for your chrome should be downloaded and extracted to root (next to pom.xml).
+My projects where i have automated Registrattion, Login, Different ways to order a product, Search and some even have Contact form automated. These scripts/frameworks were written via Selenium which is Java based.
+All my codes you can check under src> main/resources> test/java. In test/java you have helper class where majority of code was written and in test class you can run those tests
